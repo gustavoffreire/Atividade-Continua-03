@@ -22,4 +22,4 @@ def numeros_primos():
     return f"{primos}<br><br>Gustavo Emynem Izidre Ribeiro (RA: 2200826) | Gustavo Farias Freire (RA: 2201292)"
 
 if __name__ == '__main__':
-    app.run(host='5050', port=5050)
+    app.run(host='0.0.0.0', port=5050)
