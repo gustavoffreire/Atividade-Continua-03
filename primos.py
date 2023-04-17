@@ -19,9 +19,7 @@ def numeros_primos():
             primos.append(num)
         num += 1
     
-    # primos.append("Gustavo Emynem Izidre Ribeiro (RA: 2200826) | Gustavo Farias Freire (RA: 2201292)")
-    # return jsonify(primos)
     return f"{primos}<br><br>Gustavo Emynem Izidre Ribeiro (RA: 2200826) | Gustavo Farias Freire (RA: 2201292)"
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5050)
